@@ -20,6 +20,8 @@
 # brief about the application
  to find the best route with shortest possible time for delivery executive who has been tasked with 2 orders from 2 different restaurants at the same time to 2 different customers.
 
+# overview on the approach
+The delivery exec can not go to any customer without picking the customer order from the restaurant and an assumption is that delivery exec can pick order from another restaurant while carrying another order.So initially delivery exec has to go to a restaurant from there we calculate all possible valid paths and then find path which takes less time.
 
 application runs as HTTP server with endpoint /api/bestroute [to find the best route] 
 
